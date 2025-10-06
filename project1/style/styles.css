@@ -1,0 +1,156 @@
+/* === Base Styles === */
+body {
+    background-color: black;
+    color: azure;
+    font-family: "OCR A Extended", monospace;
+    
+    margin: 0;
+    padding: 0;
+}
+
+/* === Header === */
+.site-header {
+    position: sticky;
+    top: 0;
+    background: black;
+    color: azure;
+    padding: 15px;
+    border-bottom: 2px solid azure;
+    z-index: 10;
+}
+
+/* === Navigation Bar === */
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0; /* boxes will border each other */
+    margin-top: 10px;
+    text-align: center;
+}
+
+.nav-bar a {
+    flex: 1;
+    display: inline-block;
+    color: azure;
+    text-decoration: none;
+    border: 2px solid azure;
+    padding: 10px 30px;
+    transition: all 0.3s ease;
+    background-color: black;
+}
+
+.nav-bar a + a {
+    border-left: none; /* remove double borders between boxes */
+}
+
+/* Glow effect when hovered */
+.nav-bar a:hover {
+    background-color: azure;
+    color: black;
+    box-shadow: 0 0 15px azure;
+}
+
+/* === Main Content === */
+.site-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+/* Centered fieldset */
+.site-main fieldset {
+    width: 100%;
+    max-width: 1700px;
+    border: 2px solid azure;
+    margin: 0 auto;
+    text-align: left;
+    padding: 15px;
+}
+
+/* Legend styling */
+.site-main legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0 10px;
+}
+
+/* === News boxes inside fieldset === */
+.site-main fieldset div {
+    background-color: black;
+    border: 2px solid azure;
+    color: azure;
+    display: inline-block;
+    width: 1000px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    vertical-align: middle;
+    overflow-y: scroll;
+}
+
+/* Hide scrollbars (optional aesthetic choice) */
+.site-main fieldset div::-webkit-scrollbar {
+    display: none;
+}
+
+/* === Feedback box === */
+textarea {
+    background-color: black;
+    color: azure;
+    border: 2px solid azure;
+    border-radius: 5px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+/* === Footer === */
+.site-footer {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 2px solid azure;
+}
+
+.site-footer a {
+    color: azure;
+    text-decoration: underline;
+}
+
+.site-footer a:hover {
+    color: white;
+}
+/* === Feedback Section === */
+.feedback-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.feedback-section label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: azure;
+}
+
+.feedback-section textarea {
+    width: 600px;
+    height: 200px;
+    background-color: black;
+    color: azure;
+    border: 2px solid azure;
+    border-radius: 8px;
+    padding: 10px;
+    resize: none; /* optional: prevent resizing */
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.feedback-section textarea:focus {
+    outline: none;
+    border-color: white;
+    box-shadow: 0 0 15px azure;
+}
