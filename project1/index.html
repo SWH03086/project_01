@@ -5,24 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="At W Corp, we may experience ups and downs, but we never stop in terms of developing technology!">
     <meta name="keywords" content="technology, innovation, W Corp, development">
-    <title>W Corp home page</title>
+    <title>W Corp Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Moved inline styles that apply globally here */
+        div::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
 </head>
 
-<body style = "background-color: black; color: azure;">
+<body style="background-color: black; color: azure;">
     <header class="site-header">
         <div style="display: flex; align-items: center;">
             <img src="W_Corp._Logo.png" alt="W Corp logo" style="width: 250px; margin-right: 40px; height: auto;">
             <div>
-                <h3>
-                    The official home page of Work Corporation!
-                </h3>
+                <h3>The official home page of Work Corporation!</h3>
                 <h1 style="font-size: larger; line-height: 1.4; text-transform: uppercase;">
                     W Corp welcomes you!
                 </h1>
             </div>
         </div>
-        <nav>
-            <a href="about.html">About us</a>
+        <nav class="nav-bar">
+            <a href="about.html">About Us</a>
             <a href="apply.html">Apply</a>
             <a href="jobs.html">Jobs</a>
         </nav>
@@ -33,55 +38,50 @@
         <fieldset style="width: 1340px;">
             <legend>News from Work Corporation!</legend>
 
-            <div style="display: inline-block; width:400px; height:300px; border:2px solid azure; overflow-y:scroll; padding:10px; margin-right:10px; vertical-align: top; overflow-y: scroll; border-right: 2px solid azure;">
-                <style>
-                    div::-webkit-scrollbar {display: none;}
-                </style>
-                <h3>News from the Research & Development department!</h3>
+            <!-- NEWS COLUMN 1 -->
+            <div style="display: inline-block; width: 400px; height: 300px; border: 2px solid azure; padding: 10px; margin-right: 10px; vertical-align: top; border-right: 2px solid azure; overflow-y: scroll;">
+                <h3>News from the Research & Development Department!</h3>
                 <p>
-                    The Research and Development Department from Work corporation has just announced their latest technological breakthrough, that being the creation of an AI girlfriend for lonely young men! The goal of the AI girlfriend waas to help combat the rising issue of lonely men. The R&D department also plans on making an AI boyfriend to help lonely young women!
+                    The Research and Development Department from Work Corporation has just announced their latest technological breakthrough — the creation of an AI girlfriend for lonely young men! The goal of the AI girlfriend was to help combat the rising issue of loneliness. The R&D department also plans on making an AI boyfriend to help lonely young women!
                 </p>
             </div>
 
-            <div style="display: inline-block; width:400px; height:300px; border:2px solid azure; overflow-y:scroll; padding:10px; margin-right:10px; vertical-align: top; overflow-y: scroll; border-right: 2px solid azure;">
-                <style>
-                    div::-webkit-scrollbar {display: none;}
-                </style>
+            <!-- NEWS COLUMN 2 -->
+            <div style="display: inline-block; width: 400px; height: 300px; border: 2px solid azure; padding: 10px; margin-right: 10px; vertical-align: top; border-right: 2px solid azure; overflow-y: scroll;">
                 <h3>News from the CEO of W Corp!</h3>
                 <p>
-                    The CEO of W Corp, Mr. Mersault Work, has been declared the richest man on Earth after the new invention from W Corp hit the market, booming in popularity
+                    The CEO of W Corp, Mr. Mersault Work, has been declared the richest man on Earth after the new invention from W Corp hit the market, booming in popularity.
                 </p>
                 <img src="W_Corp._L2_Cleanup_Agent_Meursault_Full.webp" alt="CEO of W Corp" style="width: 300px; height: auto; display: block; margin-bottom: 10px;">
-                <p style= "font-style: italic;">
-                    "We may have our ups and downs in our progress, but we never stop progressing in I.T" 
-                    - Mersault Work, CEO of W Corp
+                <p style="font-style: italic;">
+                    "We may have our ups and downs in our progress, but we never stop progressing in I.T."
+                    — Mersault Work, CEO of W Corp
                 </p>
             </div>
 
-            <div style="display: inline-block; width:400px; height:300px; border: 2px solid azure; overflow-y:scroll; padding:10px; margin-right:10px; vertical-align: top; overflow-y: scroll;">
-                <style>
-                    div::-webkit-scrollbar {display: none;}
-                </style>
-                <h3>News from the developers of the website!</h3>
+            <!-- NEWS COLUMN 3 -->
+            <div style="display: inline-block; width: 400px; height: 300px; border: 2px solid azure; padding: 10px; margin-right: 10px; vertical-align: top; overflow-y: scroll;">
+                <h3>News from the Developers of the Website!</h3>
                 <p>
-                    Hi there! My name is Mykhaylyk Danylo The Anh, Im the leader of the Fantastic Coders group, my 2 teamates are Nguyen The Hai and Pham Tran Gia Bao. We are making a website with the theme being that of an I.T company (we went with corporation for this) advertising it's vacant positions! I do believe that we have done a wonderful job for a group that just learned the basics of HTML & CSS. We hope that you, dear professor, would give us an exceptionally high score for our project. We have put our heart and soul into making this just for you!
+                    Hi there! My name is Mykhaylyk Danylo The Anh. I'm the leader of the Fantastic Coders group; my two teammates are Nguyen The Hai and Pham Tran Gia Bao. We are making a website with the theme of an I.T. corporation advertising its vacant positions! I do believe that we have done a wonderful job for a group that just learned the basics of HTML & CSS. We hope that you, dear professor, would give us an exceptionally high score for our project. We have put our heart and soul into making this just for you!
                 </p>
             </div>
         </fieldset>
+
         <p>
             <label for="Feedback">Feedback from you goes here!</label><br>
-            <textarea name="comment" id="Feedback" rows="4" cols="40"
-            style="background-color: black; color: azure; border: 2px solid azure; border-radius: 5px;"></textarea>
+            <textarea id="Feedback" name="comment" rows="4" cols="40"
+                style="background-color: black; color: azure; border: 2px solid azure; border-radius: 5px;"></textarea>
         </p>
     </main>
 
     <footer class="site-footer">
-    <p style="vertical-align: bottom;">
-        Contact us via email!
-        <a href="https://danyloswin123.atlassian.net/browse/CF">
-            WorkCorporation@email.com
-        </a>
-    </p>
-  </footer>
+        <p style="vertical-align: bottom;">
+            Contact us via email:
+            <a href="mailto:WorkCorporation@email.com" style="color: azure;">
+                WorkCorporation@email.com
+            </a>
+        </p>
+    </footer>
 </body>
 </html>
