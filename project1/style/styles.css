@@ -138,3 +138,22 @@ textarea {
     color: black;
     box-shadow: 0 0 15px azure;
 }
+.aboutp {
+    float: right;
+}
+.aboutimg {
+    border: 4px double azure;
+    display: block;
+    padding: 2px;
+    width: 30%;
+    float: 50%;
+}
+.aboutfs {
+    border-top: none;
+}
+.at {
+    border-collapse: collapse;
+    width: 80%;
+    line-height: 50px; 
+    margin: 10px auto;
+}
