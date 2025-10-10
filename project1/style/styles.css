@@ -128,3 +128,13 @@ textarea {
     box-shadow: 0 0 15px azure;
 }
 
+.abouttable {
+    border: 2px solid azure;
+    vertical-align: middle;
+    padding: 15px;
+}
+.abouttable:hover {
+    background-color: #f0ffff;
+    color: black;
+    box-shadow: 0 0 15px azure;
+}
