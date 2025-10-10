@@ -146,7 +146,7 @@ textarea {
     display: block;
     padding: 2px;
     width: 30%;
-    float: 50%;
+    float: right;
 }
 .aboutfs {
     border-top: none;
@@ -156,4 +156,8 @@ textarea {
     width: 80%;
     line-height: 50px; 
     margin: 10px auto;
+}
+.af {
+    float: right;
+    clear: both;
 }
