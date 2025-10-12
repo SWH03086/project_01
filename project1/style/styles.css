@@ -15,8 +15,6 @@ body {
     border-bottom: 2px solid azure;
     z-index: 10;
 }
-
-
 .header-top {
 display: flex;
 align-items: center;
