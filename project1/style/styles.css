@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 .site-header {
-    position: sticky;
+    position: static;
     top: 0;
     background: black;
     color: azure;
@@ -161,7 +161,7 @@ textarea {
 .abouttable:hover {
     background-color: #f0ffff;
     color: black;
-    box-shadow: 0 0 15px azure;
+    box-shadow: 0 0 10px azure;
 }
 .aboutp {
     float: right;
