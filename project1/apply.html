@@ -3,38 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="At W Corp, we may experience ups and downs, but we never stop in terms of developing technology!">
-    <meta name="keywords" content="technology, innovation, W Corp, development">
-    <title>W Corp Job Application</title>
+    <title>Job Positions</title>
     <link rel="stylesheet" href="style/styles.css">
-    <style>
-        div::-webkit-scrollbar {
-            display: none;
-        }
-    </style>
 </head>
 
 <body>
     <header class="site-header">
-        <div>
-            <img src="W_Corp._Logo.png" alt="W Corp logo" style="width: 250px; margin-right: 40px; height: auto;">
-            <div>
-                <h3>The official home page of Work Corporation!</h3>
-                <h1>
-                    W Corp welcomes you!
-                </h1>
-            </div>
-        </div>
-        <nav class="nav-bar">
-            <a href="index.html">Home page</a>
-            <a href="about.html">About Us</a>
-            <a href="apply.html">Apply</a>
-            <a href="jobs.html">Jobs</a>
-        </nav>
-        <hr>
-    </header>
+  <div class="header-top">
+    <img src="W_Corp._Logo.png" alt="W Corp logo" class="logo">
+    <div class="header-text">
+      <h3>The official home page of Work Corporation!</h3>
+      <h1>W Corp welcomes you!</h1>
+    </div>
+  </div>
 
-    
+  <nav class="nav-bar">
+    <a href="index.html">Home page</a>
+    <a href="about.html">About Us</a>
+    <a href="apply.html">Apply</a>
+    <a href="jobs.html">Jobs</a>
+  </nav>
+
+  <hr>
+</header>
+
+    <main class="form-main">
         <h1>Job Application Form</h1>
         
         <section id="application-form">
@@ -50,7 +43,7 @@
                     <p class="form-group">
                         <label for="job-ref">Job Reference Number: *</label>
                         <select id="job-ref" name="job-ref" required>
-                            <option value="">-- Please Select --</option>
+                            <option value="">Please Select</option>
                             <option value="IT5T1">IT5T1 - IT Support Technician</option>
                             <option value="WD7F2">WD7F2 - Full Stack Web Developer</option>
                             <option value="CS3A9">CS3A9 - Cybersecurity Analyst</option>
@@ -201,7 +194,7 @@
                 </div>
             </form>
         </section>
-
+    </main>
 
         <footer>
     <p>
