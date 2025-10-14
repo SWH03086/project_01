@@ -15,12 +15,13 @@ body {
     border-bottom: 2px solid azure;
     z-index: 10;
 }
+/* Header Top Section Styles-Bao */
 .header-top {
 display: flex;
 align-items: center;
 margin-bottom: 10px;
 }
-
+/* Logo Styles-Bao */
 .logo {
 width: 120px;
 height: auto;
@@ -215,51 +216,52 @@ textarea {
     background-color: black;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
 }
-
-aside {
+/* Side Info Styles-Bao */
+.side-info {
 background: black;
 padding: 1.5rem;
 border-radius: 8px;
-box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 height: fit-content;
 position: sticky;
 top: 2rem;
-display: flex;
-width: 25%;
+display: block;
+width: 25% ;
+border: 2px solid azure;
 }
 
-
-aside h3 {
+/* Side Info Heading Styles-Bao */
+.side-info h3 {
 color: azure;
 font-size: 1.1rem;
 margin-bottom: 1rem;
 border-bottom: 2px solid azure;
 padding-bottom: 0.5rem;
 }
-
-aside a {
+/* Side Info Link Styles-Bao */
+.side-info a {
 color: azure;
 text-decoration: underline;
 transition: color 0.3s ease;
 }
 
 
-aside a:hover {
-color: white;
-text-shadow: 0 0 10px azure;
+/* Benefit Styles-Bao */
+.benefit {
+padding: 1rem;
+border-radius: 5px;
+margin-bottom: 1rem;
 }
-
-
+/* Container for Main and Aside Sections-Bao */
 .container {
-    max-width: 75%;
-    margin: 2rem auto;
-    padding: 0 1rem;
-    display: grid;
-    grid-template-columns: 1fr 300px;
-    gap: 2rem;
-    flex: 1;
+display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
 }
-
+/* Form Main Styles-Bao */
 .form-main fieldset {
     width: 60%;
     border: 2px solid azure;
@@ -267,10 +269,13 @@ text-shadow: 0 0 10px azure;
     text-align: left;
     padding: 15px;
 }
+/* Legend Styles-Bao */
 .form-main legend {
     font-weight: bold;
     font-size: 1.2em;
 }
+
+/* Fieldset Div Styles-Bao */
 .form-main fieldset div {
     background-color: black;
     color: azure;
@@ -278,7 +283,7 @@ text-shadow: 0 0 10px azure;
     padding: 10px;
     vertical-align: middle;
 }
-
+/* Form Buttons Container-Bao */
 .form-actions {
   display: flex;
   justify-content: center; 
@@ -286,14 +291,14 @@ text-shadow: 0 0 10px azure;
   margin-top: 20px;
 }
 
-
+/* Form Buttons Container-Bao */
 .form-actions {
   display: flex;
   justify-content: center; 
   gap: 15px; 
   margin-top: 20px;
 }
-
+/* Buttons visual-Bao */
 .btn-submit,
 .btn-reset {
   padding: 10px 25px;
@@ -306,7 +311,7 @@ text-shadow: 0 0 10px azure;
   transition: all 0.3s ease; 
 }
 
-
+/* Hover effects for buttons-Bao */
 .btn-submit:hover,
 .btn-reset:hover {
   background-color: azure; 
