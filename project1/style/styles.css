@@ -261,6 +261,14 @@ display: flex;
   margin: 40px auto;
   padding: 20px;
 }
+.container h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: azure;
+    font-variant: normal;
+    font-family: Bookman old style, serif;
+}
 /* Form Main Styles-Bao */
 .form-main fieldset {
     width: 60%;
