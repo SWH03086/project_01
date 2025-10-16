@@ -109,18 +109,15 @@ textarea {
     margin-top: 20px;
 }
 .site-footer {
+    
     margin-top: 40px;
     padding: 20px;
     border-top: 2px solid azure;
 }
-
-.site-footer a {
+.site-footer p {
+    text-align: center;
     color: azure;
-    text-decoration: underline;
-}
-
-.site-footer a:hover {
-    color: white;
+    font-size: small;
 }
 .feedback-section {
     display: flex;
