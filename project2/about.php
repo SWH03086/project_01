@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <?php include '../header.inc'; ?>
+    <?php include 'header.inc'; ?>
 
     <main>
         <section>
@@ -117,6 +117,6 @@
         </section>
     </main>
 
-    <?php include '../footer.inc'; ?>
+    <?php include 'footer.inc'; ?>
 </body>
 </html>
