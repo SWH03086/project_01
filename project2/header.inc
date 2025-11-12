@@ -2,8 +2,8 @@
 <header class="site-header" role="banner">
     <div class="header-top">
         <!-- Clickable Logo -->
-        <a href="../index.php" class="logo-link">
-            <img src="../images/W_Corp._Logo.png" alt="W Corp Logo - Home" class="logo">
+        <a href="index.php" class="logo-link">
+            <img src="images/W_Corp._Logo.png" alt="W Corp Logo - Home" class="logo">
         </a>
 
         <!-- Header Text -->
