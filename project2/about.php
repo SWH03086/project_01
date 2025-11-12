@@ -57,7 +57,7 @@
                 <legend>Our Tutor</legend>
                 <p>Ms. Nguyen Thuy Linh</p>
                 <figure>
-                    <img src="images/ourtutor.png" alt="Ms. Nguyen Thuy Linh - Our Tutor" class="tutor">
+                    <img src="images/ourturtor.png" alt="Ms. Nguyen Thuy Linh - Our Tutor" class="tutor">
                     <figcaption>A beautiful lady and a wonderful teacher</figcaption>
                 </figure>
             </fieldset>
