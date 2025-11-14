@@ -11,7 +11,6 @@
 
 <body>
     <?php include 'header.inc'; ?>
-
     <main class="site-main">
         <section class="news-section">
             <h2 class="section-title">News from Work Corporation!</h2>
